@@ -111,7 +111,7 @@ export class MapaBaseComponent implements OnInit {
       }),
       showAlternatives: true,
       fitSelectedRoutes: false,
-      show: false,
+      show: true,
       routeWhileDragging: true,
       waypoints: [
         this.mapService.L.latLng(this.lat, this.lon),
